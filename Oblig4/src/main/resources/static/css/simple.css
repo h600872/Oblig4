@@ -1,0 +1,19 @@
+input[type="text"], input[type="password"]{
+    border-color: green;
+}
+
+input[type="text"]:invalid, input[type="password"]:invalid {
+    border-color: red;
+}
+
+input[type="password"].mediumPassord {
+    border-color: yellow;
+}
+
+fieldset{
+    display: flex;
+    flex-flow: column;
+}
+
+
+
